@@ -1,0 +1,120 @@
+body {
+    background-image: url('BAckground.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #0a0000;
+  }
+  
+  .game-container {
+    margin: 20px auto;
+    max-width: 600px;
+    font-size: 0%;
+    
+    
+  }
+  
+  .player-inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+    
+  }
+  
+  .player-setup {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+  }
+  
+  input[type="text"] {
+   
+    padding: 10px;
+    margin: 5px 0;
+    width: 200px;
+    font-size: 16px;
+    border: 2px solid #8b2525;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="file"] {
+    padding: 5px;
+    
+  }
+  
+  .track {
+    margin: 30px 0;
+    position: relative;
+    height: 100px;
+  }
+  
+  .player-track {
+    position: relative;
+    height: 100px;
+    border: 2px solid #ddd;
+    margin-bottom: 10px;
+    background-image: url('Track.jpg');
+    
+  }
+
+  .Header
+  {
+    font-size: large;
+    font-family: fantasy;
+  }
+  .player-icon {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: left 0.5s ease-in-out;
+  }
+  .Sal
+  {
+    margin-top: 45px;
+    font-size: large;
+    font-family: fantasy;
+    word-spacing: 500px;
+  }
+  .Sakk
+  {
+    
+    margin-top: 45px;
+    font-size: large;
+    font-family: fantasy;
+    word-spacing: 500px;
+  }
+  .controls {
+    margin-top: 200px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    background-color: #333;
+    font-family: fantasy;
+  }
+  
+  #winner-message {
+    padding-top: 20px;
+    font-size: 50px;
+    font-family:fantasy;
+    color: rgb(8, 4, 4);
+    margin-top: 20px;
+  }
+  

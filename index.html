@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dice Racing Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Header">
+    <h1>Tv Ror Songsa jas</h1>
+    <h2>
+        តេីបុរសម្នាក់ណាបានទៅជួបសង្សារចាស់មុន?
+    </h2>
+</div>
+  <div class="game-container">
+
+
+    <div class="player-inputs">
+      <div class="player-setup">
+        <input type="text" id="player1-name" placeholder="Name ey dae nob">
+        <input type="file" id="player1-image" accept="image/*">
+      </div>
+      <div class="player-setup">
+        <input type="text" id="player2-name" placeholder="Jos Khang nis name ey">
+        <input type="file" id="player2-image" accept="image/*">
+      </div>
+    </div>
+    
+    <button id="start-game">Start Game</button>
+
+    <div class="track">
+
+  <div class="player-track" id="player1-track">
+    <div class="Sakk">Sakk Vichea</div>
+        <img id="player1-icon" src="Sakk.jpg" alt="Player 1" class="player-icon">
+        <span id="player1-label"></span>
+      </div>
+
+      <div class="player-track" id="player2-track">
+        <div class="Sal">Sal Vin</div>
+            
+             
+        
+        <img id="player2-icon" src="Sal.jpg" alt="Player 2" class="player-icon">
+        <span id="player2-label"></span>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button id="roll-dice">Roll Dice</button>
+      <p id="dice-result">Dice: 🎲</p>
+    </div>
+
+    <p id="winner-message"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
